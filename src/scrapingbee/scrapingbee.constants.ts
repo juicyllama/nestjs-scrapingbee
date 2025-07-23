@@ -1,5 +1,5 @@
-import { Inject } from '@nestjs/common'
+import { Inject } from "@nestjs/common";
 
-export const ScrapingbeeClientToken = Symbol('INJECT:SCRAPINGBEE:CLIENT')
+export const ScrapingbeeClientToken = Symbol("INJECT:SCRAPINGBEE:CLIENT");
 
-export const InjectScrapingbee = () => Inject(ScrapingbeeClientToken)
+export const InjectScrapingbee = () => Inject(ScrapingbeeClientToken);

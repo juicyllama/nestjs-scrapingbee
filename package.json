@@ -26,7 +26,7 @@
         "start": "nest start",
         "format": "prettier --write \"src/**/*.ts\"",
         "lint": "eslint \"src/**/*.ts\" --fix",
-        "test": "export $(grep -v '^#' ../../.env.local) && NODE_ENV=test && jest --runInBand --passWithNoTests",
+        "test": "NODE_ENV=test && jest --runInBand --passWithNoTests",
         "before:commit": "pnpm run lint && pnpm run format && pnpm run test && pnpm run build"
     },
     "dependencies": {

@@ -10,3 +10,9 @@
 <p align="center">
 A NestJS app for integrating with ScrapingBee API
 </p>
+
+## Install
+
+```
+npm i @juicyllama/nestjs-scrapingbee
+```

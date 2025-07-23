@@ -1,6 +1,6 @@
 {
     "name": "@juicyllama/nestjs-scrapingbee",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "A NestJS app for integrating with Scrapingbee API",
     "publishConfig": {
         "access": "public",

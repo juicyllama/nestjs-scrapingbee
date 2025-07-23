@@ -17,7 +17,7 @@ on:
 jobs:
 
     pr_checks:
-        uses: ./.github/workflows/pr.yml@main
+        uses: ./.github/workflows/pr.yml
         secrets: inherit
 
     release:
